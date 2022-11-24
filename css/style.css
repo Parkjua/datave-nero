@@ -2284,13 +2284,13 @@ header #main_menu .menu5 a:hover {
   opacity: 1;
 }
 /* 영상 */
-#movie {
+#video {
   text-align: center;
   width: calc(100vw * 1920 / 1920);
   height: calc(100vw * 1080 / 1920);
   padding: 0;
 }
-#movie video {
+#video video {
   z-index:999;
   width: calc(100vw * 1920 / 1920);
   height: calc(100vw * 1080 / 1920);
