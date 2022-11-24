@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리 동네 구독서비스 NERO</title>
+
+    <meta property="og:title" content="우리 동네 구독서비스 NERO" />
+    <meta property="og:url" content="#" />
+    <meta property="og:description" content="우리 동네 구독서비스 NERO 소개 웹사이트" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="우리 동네 구독서비스 NERO" />
+    <meta name="twitter:url" content="#" />
+    <meta name="twitter:description" content="우리 동네 구독서비스 NERO 소개 웹사이트" />
+
+    <meta name="subject" content="NERO" />
+    <meta name="title" content="우리 동네 구독서비스 NERO" />
+    <meta name="author" content="#">
+    <meta name="description" content="우리 동네 구독서비스 NERO 소개 웹사이트" />
+    <meta name="keywords" content="동네, 골목, 구독" />
+    <!-- CSS -->
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+    <!-- JS -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Favicone -->
+    <!-- <link rel="shortcut icon" href="/img/favi/favicon.ico"> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+
+
+<body>
+    <div id="load">
+        <img src="./img/loading.gif" alt="로딩 이미지">
+    </div>
+    <header>
+        <nav>
+            <a href="main.html"><img id="logo" src="./img/logo.png" alt="네로 로고" /></a>
+            <ul id="main_menu">
+                <li class="menu1">
+                    <a href="#planning1">Project</a>
+                </li>
+                <li class="menu2"><a href="#design1">Design</a></li>
+                <li class="menu3"><a href="#service1">Service</a></li>
+                <li class="menu4"><a href="#video">Video</a></li>
+                <li class="menu5"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 메인화면 -->
+    <main id="main">
+        <h1 class="blind">우리동네 구독 서비스</h1>
+        <video class="video_bg" muted autoplay loop>
+            <source src="videos/bg.mp4" type="video/mp4">
+        </video>
+    </main>
+
+    <!-- Planning overview-->
+    <section id="planning1">
+        <div class="inner">
+            <h1 class="sub_title planning1_t1">Overview</h1>
+            <div id="planning1_align">
+                <div class="left planning1_t2">
+                    <h2 class="sub_title">설 자리를 잃어가는 골목상권 소상공인</h2>
+                    <p class="desc_title">코로나19로 인한 골목상권 침체로 위기를 겪은 소상공인들은 탈 코로나 시대 이후 빨대효과 및
+                        원재료비 상승으로 또 한 번 위기를 맞이했습니다. 해가 지날수록 점점 더 설 자리를 잃어가고
+                        있어, 현재 매장 운영의 난항을 겪는 골목상권 회복 지원 사업에 관심도가 쏠리고 있습니다. </p>
+                    <p class="desc_title">* 빨대 효과 : 큰 도시가 주변 도시의 인구나 경제력을 흡수하는 현상</p>
+                </div>
+
+                <div class="right">
+                    <div class="graph">
+                        <h2 class="sub_title">[ 소상공인 경영 애로 사항 ]</h2>
+                        <div class="graph1">
+                            <span class="g_term">상권 쇠퇴</span>
+                            <span class="g_bar" id="g_bar1"></span>
+                            <span class="g_number">37.6 %</span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_term">원재료비</span>
+                            <span class="g_bar" id="g_bar2"></span>
+                            <span class="g_number">28.7 %</span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_term">임차료</span>
+                            <span class="g_bar" id="g_bar3"></span>
+                            <span class="g_number">17.5 %</span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_term">최저임금 상승</span>
+                            <span class="g_bar" id="g_bar4"></span>
+                            <span class="g_number">11.2 %</span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_term">인력관리</span>
+                            <span class="g_bar" id="g_bar5"></span>
+                            <span class="g_number">6.7 %</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planning overview2-->
+    <section id="planning2">
+        <div class="inner">
+            <h1 class="sub_title planning2_t1">지출을 줄여야하는 현실에 직면한 2030세대</h1>
+            <p class="desc_title planning2_t2">8월 이후 3달 연속 소비자물가 상승률 5%대를 기록한 2022년, 고물가 시대가 본격화되면서 저 상장 시대를 맞아<br />
+                대다수의 사람들이 지출을 줄이고 절약하며 그로 인해 2030세대 사이에선 새로운 실속 소비 트렌드들이 떠오르고 있습니다.</p>
+        </div>
+        <div id="bubble_container" class="inner">
+            <!-- 중앙 말풍선 -->
+            <div id="bubble_center">
+                <div class="bubble_text">고물가 시대 본격화</div>
+            </div>
+            <!-- 색상 말풍선 -->
+            <div>
+                <div id="bubble_red" class="planning2_ani1">
+                    <div class="bubble_color">알뜰 소비족</div>
+                </div>
+                <div id="bubble_yellow" class="planning2_ani2">
+                    <div class="bubble_color">새로운 실속 소비 트렌드</div>
+                </div>
+                <div id="bubble_green" class="planning2_ani3">
+                    <div class="bubble_color">할인을 끌어모으는 짠물소비</div>
+                </div>
+                <div id="bubble_blue" class="planning2_ani4">
+                    <div class="bubble_color">물가 상승으로 인한 식비 부담</div>
+                </div>
+                <div id="bubble_purple" class="planning2_ani5">
+                    <div class="bubble_color">편의점 구독의 성행</div>
+                </div>
+            </div>
+            <!-- 흰색 말풍선 -->
+            <div>
+                <div class="bubble_bg planning2_ani6">
+                    <div class="bubble_white">무지출 챌린지</div>
+                </div>
+                <div class="bubble_bg2 planning2_ani7">
+                    <div class="bubble_white">플렉스 대신 짠테크</div>
+                </div>
+                <div class="bubble_bg3 planning2_ani8">
+                    <div class="bubble_white">알뜰 마케팅</div>
+                </div>
+            </div>
+        </div>
+        <div class="back_img"><img src="./img/planning2_bg.png" alt="배경 디자인 요소"></div>
+    </section>
+
+    <!-- Planning solution -->
+    <section id="planning3">
+        <div class="inner">
+            <h1 class="sub_title planning3_t1">Solution</h1>
+            <div class="text_box">
+                <p class="desc_title planning3_t4">NERO는 위와 같은 고민을 겪는 <span class="point_text">두 집단을
+                        연결</span>합니다.</p>
+                <h4 class="planning3_t2">
+                    하이퍼로컬 서비스 + 구독 경제</h4>
+                <h3 class="planning3_t3">
+                    골목상권 구독 중개 서비스</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planning structure -->
+    <section id="planning4" class="inner">
+        <h1 class="sub_title planning4_t1">Service Structure</h1>
+        <p class="desc_title planning4_t2">네로는 하이퍼로컬 서비스를 통해 소상공인과 소비자를 연결하는 연계 플랫폼 형식입니다.<br />
+            각 화면을 분리하여 소상공인에겐 쉽고 간단한 구독 경제의 경험을, 지역 주민에겐 금액적인 혜택의 경험을 제공하여 이들 사이의 <span class="point_text">유기적인
+                연결고리</span>가 되고자 합니다.
+        </p>
+        <div id="structure_container">
+            <div id="structure_align">
+                <div id="structure_left">
+                    <div class="structure_wrap">소상공인</div>
+                </div>
+                <img src="./img/service_center.png" alt="중앙 로고">
+                <div id="structure_right">
+                    <div class="structure_wrap">지역주민</div>
+                </div>
+            </div>
+
+            <div class="structure_line"></div>
+            <div class="structure_line2"></div>
+
+            <ul>
+                <li class="planning4_t3">수입, 고정 소비자</li>
+                <li class="arrow_left"><img src="./img/left_arrow.png" alt="왼쪽방향 화살표"></li>
+                <li class="arrow_right"><img src="./img/right_arrow.png" alt="오른쪽방향 화살표"></li>
+                <li class="planning4_t4">구독권 (컨텐츠) 제공</li>
+            </ul>
+            <ul class="left">
+                <li class="planning4_t5">콘텐츠 소비, 비용 지불</li>
+                <li class="arrow_left2"><img src="./img/left_arrow.png" alt="왼쪽방향 화살표"></li>
+                <li class="arrow_right2"><img src="./img/right_arrow.png" alt="오른쪽방향 화살표"></li>
+                <li class="planning4_t6">금액적인 혜택</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Planning benefit -->
+    <section id="planning5" class="inner">
+        <h1 class="sub_title planning5_t1">Service Benefit</h1>
+        <p class="desc_title planning5_t2">침체된 골목상권 활성화 도모와 새로운 구독 경제의 트렌드를 선두하는 서비스, 네로가 이루어내고자 하는 목표입니다.
+        </p>
+
+        <!-- 소상공인 -->
+        <div class="benefit_boss">
+            <div class="sub_title">소상공인</div>
+            <div class="benefit_line"></div>
+            <div class="circle_bg"></div>
+            <div class="boss_circle circle1" id="planning5_ani1">
+                <div class="text_container text_three">구독경제<br />진입장벽<br />낮아짐</div>
+            </div>
+            <div class="boss_circle circle2" id="planning5_ani2">
+                <div class="text_container">안정적인<br />새로운 수입원</div>
+            </div>
+            <div class="boss_circle circle3" id="planning5_ani3">
+                <div class="text_container">단골 / 장기<br />고객 연결</div>
+            </div>
+            <div class="boss_circle circle4" id="planning5_ani4">
+                <div class="text_container">자동적인<br />가게 홍보 효과</div>
+            </div>
+            <div class="boss_last" id="planning5_ani5">
+                <div class="text_container">침제되어 있는
+                    <br />골목상권 활성화
+                </div>
+            </div>
+        </div>
+
+        <!-- 지역주민 -->
+        <div class="benefit_citizen">
+            <div class="sub_title">지역주민</div>
+            <div class="benefit_line2"></div>
+            <div class="circle_bg"></div>
+            <div class="citizen_circle circle1" id="planning5_ani6">
+                <div class="text_container">생활반경 내<br />높은 접근성</div>
+            </div>
+            <div class="citizen_circle circle2" id="planning5_ani7">
+                <div class="text_container text_three">저비용으로<br />다양한 상품<br />서비스 경험</div>
+            </div>
+            <div class="citizen_circle circle3" id="planning5_ani8">
+                <div class="text_container">골목상권<br />이용 계기</div>
+            </div>
+            <div class="citizen_circle circle4" id="planning5_ani9">
+                <div class="text_container">고물가 시대<br />소비 절약 도움</div>
+            </div>
+            <div class="citizen_last" id="planning5_ani10">
+                <div class="text_container">새로운 구독경제
+                    <br />트렌드 선두
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planning naming -->
+    <section id="planning6">
+        <div class="naiming_bg">
+            <div class="inner">
+                <h1 class="sub_title planning6_t1">Service Naming</h1>
+                <div id="planning6_align">
+                    <div class="text_box planning6_t2">
+                        <p class="desc_title">네로 (NERO)는<br />
+                            이런 뜻을 담고있습니다.</p>
+                    </div>
+                    <div class="n_right planning6_t3">
+                        <img src="./img/nero_text.png" alt="네로 네이밍 텍스트 이미지">
+                        <p class="desc_title">동네에서 가장 중요한 역할을 하는 이웃 (Neighbor)과 길 (Road)의 합성어입니다.
+                            ‘이웃을 통해 활성화 되어가는 골목상권’이라는 의미를 담고자 했습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design keyword -->
+    <section id="design1">
+        <div class="inner">
+            <h1 class="sub_title design1_t1">Design Keyword</h1>
+            <p class="desc_title design1_t2">골목상권 구독 서비스의 취지에 걸맞은<br />
+                키워드를 통해 디자인 방향성을 수립했습니다.</p>
+        </div>
+        <div class="animated_keyword">
+            <div class="animated_title">
+                <div class="track">
+                    <div class="content">
+                        <span>#Variegated</span><span class="red">#다채로운</span><span>#형형색색</span><span
+                            class="red">#Colorful</span><span>#Variegated</span><span
+                            class="red">#다채로운</span><span>#형형색색</span><span class="red">#Colorful</span>
+                        <span>#Variegated</span><span class="red">#다채로운</span><span>#형형색색</span><span
+                            class="red">#Colorful</span>
+                    </div>
+                </div>
+            </div>
+            <div class="animated_title">
+                <div class="track2">
+                    <div class="content">
+                        <span>#Bright</span><span class="yellow">#Lively</span><span>#활기찬</span><span
+                            class="yellow">#생기있는</span><span>#생동감</span><span>#Bright</span><span
+                            class="yellow">#Lively</span><span>#활기찬</span><span
+                            class="yellow">#생기있는</span><span>#생동감</span><span>#Bright</span><span
+                            class="yellow">#Lively</span><span>#활기찬</span><span
+                            class="yellow">#생기있는</span><span>#생동감</span>
+                    </div>
+                </div>
+            </div>
+            <div class="animated_title">
+                <div class="track">
+                    <div class="content">
+                        <span class="purple">#New</span><span>#감각적인</span><span
+                            class="purple">#새로운</span><span>#Modern</span><span
+                            class="purple">#New</span><span>#감각적인</span><span
+                            class="purple">#새로운</span><span>#Modern</span><span
+                            class="purple">#New</span><span>#감각적인</span><span
+                            class="purple">#새로운</span><span>#Modern</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design logo-->
+    <section id="design2">
+        <div class="inner">
+            <h1 class="sub_title design2_t1">Logo</h1>
+            <p class="desc_title design2_t2">서비스의 주요 키워드인 '연결'에서 모티브를 얻어<br />바퀴 형태의 심볼 로고를 제작했습니다.</p>
+        </div>
+        <img src="./img/logo_ani.gif" alt="로고 애니메이션">
+    </section>
+
+    <!-- Design typo-->
+    <section id="design3">
+        <div class="inner">
+            <h1 class="sub_title design3_t1">Typography</h1>
+            <div class="typo_align">
+                <div class="left design3_t2">
+                    <h2 class="sub_title">Pretendard</h2>
+                    <p class="desc_title">가독성을 우선적으로 고려하였으며, 사용자가 제공받는 정보에<br /> 집중할 수 있도록 간결하고 안정감 있는 프리텐다드 폰트를<br />
+                        선정하여 사용했습니다.</p>
+                </div>
+                <div class="right">
+                    <ul class="design3_t3">
+                        <li class="typo_number">03 Light</li>
+                        <li class="typo_text">우리 동네의</li>
+                    </ul>
+                    <ul class="design3_t4">
+                        <li class="typo_number">04 Regular</li>
+                        <li class="typo_text">다양한 구독권을</li>
+                    </ul>
+                    <ul class="design3_t5">
+                        <li class="typo_number">07 Bold</li>
+                        <li class="typo_text">만나보세요!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design color-->
+    <section id="design4">
+        <div class="inner">
+            <h1 class="sub_title design4_t1">Color</h1>
+            <p class="desc_title design4_t2">깔끔한 느낌을 강조하기 위해 네이비와 화이트를 메인 컬러로 사용했으며,<br />
+                5가지의 다채로운 포인트 컬러들을 통해 서비스에 생기를 불어넣었습니다. </p>
+        </div>
+        <div class="color_system">
+            <div id="c_navy">Gentle Navy<span class="c_code">#0B0730</span></div>
+            <div id="c_white">Pure White<span class="c_code">#FFFFFF</span></div>
+        </div>
+        <div class="color_system">
+            <div id="c_red">Ardor Red<span class="c_code">#f86e6e</span></div>
+            <div id="c_yellow">Effort Yellow<span class="c_code">#FFCE41</span>
+            </div>
+            <div id="c_green">Joyful Green<span class="c_code">#42C78E</span></div>
+            <div id="c_blue">Calm Blue <span class="c_code">#4D98D9</span>
+            </div>
+            <div id="c_purple">Cosmos Purple<span class="c_code">#955BEF</span></div>
+        </div>
+    </section>
+
+    <!-- Service1 -->
+    <section id="service1">
+        <div class="inner">
+            <h1 class="sub_title service1_t1">Service</h1>
+            <p class="desc_title service1_t2">각 사용자의 니즈에 맞는 두 가지 화면을 각각 구성하여 제공합니다.</p>
+        </div>
+        <div class="left_bg">
+            <div class="s_1">
+                <h1 class="sub_title">구독자 화면</h1><img src="./img/service1.gif" alt="구독자 메인">
+            </div>
+        </div>
+        <div class="right_bg">
+            <div class="s_2">
+                <h1 class="sub_title">사장님 화면</h1><img src="./img/service2.gif" alt="서비스 메인">
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <!-- Service2 구독자 화면-->
+    <section id="service2" class="inner">
+        <div class="text_box">
+            <div class="title_box">구독자 화면
+            </div>
+            <h1 class="sub_title2 service2_t1">홈을 다채롭게, 늘 새롭게!</h1>
+            <p class="desc_title2 service2_t2">네로의 다섯 가지 포인트 컬러 배경으로 다채로움을 더했습니다.<br />
+                매일 바뀌는 구독권 추천 내역으로 늘 새로운 구독권을 만나보세요.</p>
+        </div>
+        <div class="text_box2">
+            <h1 class="sub_title service2_t3">다양한 구독권 추천 받기</h1>
+            <p class="desc_title2 service2_t4">접속 시 달라지는 구독권 추천을 통해
+                매일 새로운 매장을 둘러보세요.</p>
+        </div>
+        <div class="sub_home"><img src="./img/sub_main.gif" alt="구독 추천 서비스화면"></div>
+        <div class="sub_home2"><img src="./img/sub_main2.gif" alt="구독권 종류 이미지"></div>
+    </section>
+
+
+    <!-- Service3 단골 매장 둘러보기-->
+    <section id="service3" class="inner">
+        <h1 class="sub_title2 service3_t1">단골이 될<br />
+            매장 둘러보기</h1>
+        <p class="desc_title2 service3_t2">입점되어 있는 다양한 매장들을 둘러보면서<br />
+            판매하는 구독권도 살펴보세요.</p>
+        <div class="service3_align">
+            <img id="service3_ani1" src="./img/sub_1.png" alt="구독권 살펴보기">
+            <img id="service3_ani2" src="./img/sub_2.png" alt="구독권 종류보기">
+            <img id="service3_ani3" src="./img/sub_3.png" alt="구독 실행하기">
+            <img id="service3_ani4" src="./img/sub_4.png" alt="구독 리뷰보기">
+        </div>
+    </section>
+
+    <!-- Service4 QR 서비스-->
+    <section id="service4" class="inner">
+        <div class="shadow"></div>
+        <div class="text_box">
+            <h1 class="sub_title2 service4_t1">QR코드를 통한 간편 결제 지원</h1>
+            <p class="desc_title2 service4_t2">따로 카드를 준비할 필요 없어요.<br />
+                매장 직원에게 QR코드를 보여주고 빠르게 결제해요.</p>
+        </div>
+        <div id="service4_align">
+            <img class="qr_1" src="./img/qr_2.png" alt="QR 블랙라떼 구독권">
+            <img class="qr_2" src="./img/qr_3.png" alt="QR 댕댕이 간식 구독권">
+            <img class="center" src="./img/qr_main.gif" alt="QR 메인화면">
+            <img class="qr_3" src="./img/qr_1.png" alt="QR 10% 할인 구독권">
+            <img class="qr_4" src="./img/qr_4.png" alt="QR 네일 구독권">
+        </div>
+        <div class="both"></div>
+    </section>
+    <div class="both"></div>
+
+    <!-- Service5 알람 서비스 -->
+    <section id="service5">
+        <div class="bg">
+            <div class="inner">
+                <h1 class="sub_title2 service5_t1">보유 구독권 현황을<br />알림으로!</h1>
+                <p class="desc_title2 service5_t2">구독권 결제일, 만료 기간, 잔여횟수 등
+                    보유 중인 구독권에 관련한 중요한 소식을
+                    놓치지 않도록 알림을 제공해요.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service6 사장님 화면 서비스 -->
+    <section id="service6" class="inner">
+        <div class="text_box">
+            <div class="title_box">사장님 화면
+            </div>
+            <h1 class="sub_title2 service6_t1">빠르게 네로 입점하기</h1>
+            <p class="desc_title2 service6_t2">서비스 내 매장 입점을 통해 빠르게 네로에 입점해 보세요!<br />
+                3가지 서류와 매장 정보만 입력하면 간단하게 입점 신청을 할 수 있어요.</p>
+        </div>
+        <div class="join_main">
+            <img class="service6_ani1" src="./img/join1.png" alt="로그인 화면">
+            <img class="service6_ani2" src="./img/join2.gif" alt="가입 화면">
+        </div>
+    </section>
+
+    <!-- Service7 사장님 메인 화면 -->
+    <section id="service7">
+        <div class="inner">
+            <img class="boss_main" src="./img/boss_main.png" alt="사장님 메인화면">
+            <img class="right_arrow2" src="./img/right_arrow2.png" alt="오른쪽 방향">
+            <div class="boss_category">
+                <img src="./img/boss_category1.png" alt="사장님 카테고리 매장관리">
+                <img src="./img/boss_category2.png" alt="사장님 카테고리 지원">
+            </div>
+            <div class="right">
+                <div class="text_box">
+                    <h1 class="sub_title2 service7_t1">홈을 통해 관리를 한 번에</h1>
+                    <p class="desc_title2 service7_t2">혹여, 매장 관리가 어려울까 두려워하지 마세요!<br />
+                        홈 화면을 통해 모든 기능으로 빠르게 이동할 수 있어요.</p>
+                </div>
+                <div class="boss_graph">
+                    <img src="./img/boss_graph.png" alt="매출 그래프 배경화면">
+                    <div id="graph">
+                        <div class="graph1">
+                            <span class="g_gray"></span>
+                            <span class="g_color"></span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_gray week2_g"></span>
+                            <span class="g_color week2_c"></span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_gray week3_g"></span>
+                            <span class="g_color week3_c"></span>
+                        </div>
+                        <div class="graph1">
+                            <span class="g_gray week4_g"></span>
+                            <span class="g_color week4_c"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text_box2">
+                    <h1 class="sub_title2 service7_t3">주간/월간 매출 현황</h1>
+                    <p class="desc_title2 service7_t4">홈 화면에서 구독권 매출 현황을 확인할 수 있어요.<br />
+                        직관적인 그래프를 통해 지난 매출과 비교도 한 번에! </p>
+                </div>
+            </div>
+        </div>
+        <div class="gray_bg"></div>
+    </section>
+
+    <!-- Service8 사장님 구독권 등록화면 -->
+    <section id="service8">
+        <div class="inner">
+            <h1 class="sub_title2 service8_t1">구독권 등록,<br />
+                어렵지 않아요</h1>
+            <p class="desc_title2 service8_t2">매장에서 판매하고자 하는 구독권을 등록해보세요.<br />
+                간편한 등록 시스템으로 손쉬운 관리가 가능해요.</p>
+            <div id="service8_align">
+                <!-- 왼쪽 -->
+                <div class="top_arrow arrow_ani2"><img src="./img/top_arrow.png" alt="위 화살표"></div>
+                <div class="left_align">
+                    <img class="s_list" src="./img/sub_list.png" alt="구독권 리스트 메인화면">
+                    <h1 class="sub_title2 service8_t3">간편한 구독권 등록</h1>
+                    <p class="desc_title2 service8_t4">구독권에 대한 필수 정보를 입력한 뒤<br />
+                        등록하면 판매를 위한 모든 준비 끝!</p>
+                </div>
+
+                <!-- 오른쪽 -->
+                <div class="bottom_arrow arrow_ani1"><img src="./img/bottom_arrow.png" alt="아래 화살표"></div>
+                <div class="right_align">
+                    <h1 class="sub_title2 service8_t5">판매 중인 구독권 리스트</h1>
+                    <p class="desc_title2 service8_t6">우리 매장에서 판매 중인 구독권 목록을<br />
+                        보기 쉽게 구성하여 제공해요. </p>
+                    <img class="s_regist" src="./img/sub_registration.png" alt="구독권 등록 메인화면">
+                </div>
+
+                <!-- 텍스트 타이핑 효과 -->
+                <!-- <div class="right_ani"></div> -->
+                <div class="text_box">
+                    <span class="text"></span><span class="blink">|</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service9 캘린더 -->
+    <section id="service9">
+        <div class="inner">
+            <div class="service9_align">
+                <div class="service9_left">
+                    <h1 class="sub_title2 calender_t1">고객 일정 확인은<br />
+                        캘린더로 간편하게
+                    </h1>
+                    <p class="desc_title2 calender_t2">캘린더 기능을 통해 손님 일정을 한눈에 확인하고<br />
+                        직접 추가하여 효율적으로 관리할 수 있어요.</p>
+                    <div class="calender_com">
+                        <img class="calender_ani1" src="./img/calender_com1.png" alt="캘린더 픽업요소">
+                        <img class="calender_ani2" src="./img/calender_com2.png" alt="캘린더 예약요소">
+                        <img class="calender_ani3" src="./img/calender_com3.png" alt="캘린더 예약요소">
+                    </div>
+                </div>
+                <div class="service9_right">
+                    <img class="calender_ani4" src="./img/calender1.png" alt="캘린더 손님관리화면">
+                    <img class="calender_ani5" src="./img/calender2.png" alt="캘린더 손님목록화면">
+                </div>
+            </div>
+        </div>
+        <div class="service9_bg"></div>
+    </section>
+
+    <!-- 영상 -->
+    <section id="video">
+        <h1 class="blind">영상</h1>
+        <video controls="controls">
+            <source src="./videos/main.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- mockup1 -->
+    <section id="mockup1">
+        <h1 class="blind">목업이미지</h1>
+    </section>
+
+    <!-- mockup2 -->
+    <section id="mockup2">
+        <h1 class="blind">목업이미지</h1>
+    </section>
+    <!-- 컨택트 -->
+    <section id="contact">
+        <div class="inner">
+            <h1 class="sub_title">Team. 다타베</h1>
+            <div class="profile">
+                <ul>
+                    <li>Planner</li>
+                    <li>
+                        <a href="https://jjonggeutux.wixsite.com/portfolio">
+                            <figure>
+                                <img src="./img/profile1.png" alt="이가영 프로필 사진">
+                                <figcaption class="profile1">포트폴리오 →</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>이가영</li>
+                    <li>7r.young59@gmail.com</li>
+                </ul>
+                <ul>
+                    <li>Designer</li>
+                    <li>
+                        <a href="https://www.behance.net/76d8e116">
+                            <figure>
+                                <img src="./img/profile2.png" alt="강민지 프로필 사진">
+                                <figcaption class="profile2">포트폴리오 →</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>강민지</li>
+                    <li>readyforyou_@naver.com</li>
+                </ul>
+                <ul>
+                    <li>Designer</li>
+                    <li>
+                        <a href="https://readymag.com/4003131">
+                            <figure>
+                                <img src="./img/profile3.png" alt="김예원 프로필 사진">
+                                <figcaption class="profile3">포트폴리오 →</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>김예원</li>
+                    <li>artistkimnye@gmail.com</li>
+                </ul>
+                <ul>
+                    <li>Designer</li>
+                    <li>
+                        <a href=" https://www.behance.net/araksha1226c19">
+                            <figure>
+                                <img src="./img/profile4.png" alt="정지윤 프로필 사진">
+                                <figcaption class="profile4">포트폴리오 →</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>정지윤</li>
+                    <li>sinuzin.666@gmail.com</li>
+                </ul>
+                <ul>
+                    <li>Programmer </li>
+                    <li>
+                        <a href="https://parkjua.github.io/Portfolio/">
+                            <figure>
+                                <img src="./img/profile5.png" alt="박주아 프로필 사진">
+                                <figcaption class="profile5">포트폴리오 →</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>박주아</li>
+                    <li>wndk3309@naver.com</li>
+                </ul>
+            </div>
+            <a class="link" href="source.html">Resource 출처 &nbsp;▶︎</a>
+        </div>
+    </section>
+    <aside id="scrollTop">⌃</aside>
+
+    <!-- script -->
+    <script type="text/javascript" src="./js/load.js"></script>
+    <script type="text/javascript" src="./js/menu.js"></script>
+    <script type="text/javascript" src="./js/typing.js"></script>
+    <script type="text/javascript" src="./js/scroll.js"></script>
+    <script type="text/javascript" src="./js/scrolltop.js"></script>
+</body>
+
+</html>
